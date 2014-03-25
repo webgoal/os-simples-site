@@ -22,7 +22,7 @@
 .grid-9,
 .grid-10,
 .grid-11,
-.grid-12{ margin-right: 20px; float: left;}
+.grid-12{ margin-right: 10px; float: left;}
 
 
 .container{
@@ -32,4 +32,4 @@
 	padding:0 20px;
 }
 
-.container :last-child{ margin-right: 0 !important;}
+/*.container :last-child{ margin-right: 0 !important;}*/

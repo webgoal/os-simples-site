@@ -14,6 +14,14 @@ a{
 	color: #3e484e;
 }
 
+section h2{
+	font-family: ClanWeb-Book, sans-serif;	
+	font-size: 55px;
+	margin: 60px 0;
+	text-align: center;
+	color: #3e484e;
+}
+
 a.btn{
 	display: block;
 	width: 250px;
@@ -25,6 +33,10 @@ a.btn{
 	padding: 20px 10px;
 }
 
+.grid-12 a.btn{
+	margin: 0 auto;
+}
+
 section#top{
 	height: 75px;
 	overflow: auto;
@@ -33,6 +45,9 @@ section#top{
 	position: fixed;
 	top: 0;
 	width: 100%;
+	/*-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.75);*/
 }
 
 a.logo{
@@ -71,6 +86,7 @@ section#hero h2{
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	text-align: left;
 	letter-spacing: -3px;
+	line-height: 58px;
 }
 
 section#hero h3{
@@ -78,17 +94,66 @@ section#hero h3{
 	font-size: 24px;
 	color: #3e484e;
 	width: 620px;
-	margin:20px 0;
+	margin:20px 0 30px 0;
+	text-shadow: 1px 1px 1px rgba(255, 249, 249, 1);
 }
 
 section#hero h3 span{
 	font-family: ClanWeb-Medium, sans-serif;
 }
 
-section h2{
-	font-family: ClanWeb-Thin, sans-serif;	
-	font-size: 55px;
-	margin: 60px 0;
+section#content .como-funciona{
+	background: url(../images/line.png) no-repeat 0 277px;
+}
+
+
+section#content .grid-2{
+	height: 300px;
 	text-align: center;
-	color: #3e484e;
+	background: url(../images/timeline.png) no-repeat center 70px;
+}
+
+section#content .como-funciona img{
+	margin:110px 0 20px 0;
+}
+
+section#content .como-funciona p{
+	font-size: .8em;
+}
+
+
+section#content .facilidades ul{
+	list-style: none;
+}
+
+section#content .facilidades li{
+	text-align: center;
+	margin: 0 0 80px 0;
+}
+
+section#content .facilidades li p{
+	font-family: ClanWeb-Book, sans-serif;
+	font-size: 22px;
+	padding:20px;
+}
+
+section#content .facilidades li img{
+	margin: 0 0 20px 0;
+}
+
+
+section#form{
+	padding:10px 0 40px 0;
+	background: #3e484e;
+}
+
+section#form h2{
+	color: #FFF;
+	margin: 20px 0;
+	font-size: 2.5em;
+}
+
+section#footer{
+	background: #141719;
+	color:#999;
 }
