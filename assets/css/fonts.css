@@ -1,0 +1,31 @@
+/*Fonts para o IE */
+@font-face {
+	font-family: ClanWeb-Medium;
+	src: url("fonts/ClanWeb-Medium.eot");
+}
+
+@font-face {
+	font-family: ClanWeb-Book;
+	src: url("fonts/ClanWeb-Book.eot");
+}
+
+@font-face {
+	font-family: ClanWeb-Thin;
+	src: url("fonts/ClanWeb-Thin.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+	font-family: ClanWeb-Medium;
+	src: url("fonts/ClanWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+	font-family: ClanWeb-Book;
+	src: url("fonts/ClanWeb-Book.woff") format("woff");
+}
+
+@font-face {
+	font-family: ClanWeb-Thin;
+	src: url("fonts/ClanWeb-Thin.woff") format("woff");
+}
