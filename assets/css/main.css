@@ -195,3 +195,15 @@ section#footer p{
 	float: left;
 	margin:0 12px 0 0;
 }
+
+.thanks{
+	min-height: 600px;
+	background: url(../images/thanks.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;	
+}
+
+.thanks h3{
+	font-family: ClanWeb-Medium, sans-serif;
+	font-size: 1.6em;	
+}
