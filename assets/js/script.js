@@ -15,6 +15,10 @@
 		  		"page": "home"
 			});
 
+			mixpanel.track("access_page", {
+		  		"page": "thanks"
+			});
+
 			getWindowSize();
 			
 			// SCROLL EASING
@@ -40,6 +44,13 @@
 
 	    		mixpanel.track("click", {
 			  		"botao": "meio"
+				});
+			});
+
+			$('#btn-submit').click(function() {
+
+	    		mixpanel.track("click", {
+			  		"botao": "form"
 				});
 			});			
 
