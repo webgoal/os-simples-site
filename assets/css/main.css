@@ -175,7 +175,7 @@ input[type=email]{
 	padding:10px;
 }
 
-input[type=submit]{
+input#btn-submit{
 	border:0;
 	background: #4fc6eb;
 	padding:12px;

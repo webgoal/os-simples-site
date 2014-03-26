@@ -36,11 +36,11 @@
 				});
 			});
 
-			$('form').on('submit', function() {
+			$('#btn-submit').on('click', function() {
 	    		mixpanel.track("submit", {
 			  		"form": "cadastro"
 				}, function() {
-					return true
+					$('form').submit()
 				});
 			});			
 		});
