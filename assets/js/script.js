@@ -25,26 +25,24 @@
 
 
 	    	$('#btn-one').click(function() {
-
 	    		mixpanel.track("click", {
 			  		"botao": "topo"
 				});
 			});
 
 			$('#btn-two').click(function() {
-
 	    		mixpanel.track("click", {
 			  		"botao": "meio"
 				});
 			});
 
-			$('#btn-submit').click(function() {
-
-	    		mixpanel.track("click", {
-			  		"botao": "form"
+			$('form').on('submit', function() {
+	    		mixpanel.track("submit", {
+			  		"form": "cadastro"
+				}, function() {
+					return true
 				});
 			});			
-
 		});
 
 })( jQuery );
