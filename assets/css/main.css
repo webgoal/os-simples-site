@@ -95,7 +95,7 @@ section#hero h3{
 	color: #3e484e;
 	width: 620px;
 	margin:20px 0 30px 0;
-	text-shadow: 1px 1px 1px rgba(255, 249, 249, 1);
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 }
 
 section#hero h3 span{
@@ -143,8 +143,32 @@ section#content .facilidades li img{
 
 
 section#form{
-	padding:10px 0 40px 0;
+	padding:20px 0 60px 0;
 	background: #3e484e;
+}
+
+section#form form{
+	padding:20px 0;
+	text-align: center;
+}
+
+input{
+	font-family: ClanWeb-Medium, sans-serif;
+	font-size: 1.2em;
+	margin:0 10px 0 0;
+	color: #3e3c36;
+}
+
+input[type=text],
+input[type=email]{
+	padding:10px;
+}
+
+input[type=submit]{
+	border:0;
+	background: #4fc6eb;
+	padding:12px;
+	width: 220px;
 }
 
 section#form h2{
@@ -156,4 +180,19 @@ section#form h2{
 section#footer{
 	background: #141719;
 	color:#999;
+	padding:30px 0;
+	font-size: .9em;
+}
+
+section#footer a{
+	color: #4fc6eb;
+}
+
+section#footer p{
+	margin:3px 0 0 0;
+}
+
+.logo-mini{
+	float: left;
+	margin:0 12px 0 0;
 }
