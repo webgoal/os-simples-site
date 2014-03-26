@@ -13,7 +13,7 @@
 			getWindowSize();
 			
 			// SCROLL EASING
-			$('nav a, #footer a, #hero a')
+			$('nav a, #footer a, #hero a, .grid-12 a')
 				.bind('click',function(event){ 
 					var $anchor = $(this);
 		        	$('html, body').stop().animate({
@@ -23,6 +23,20 @@
 	        		event.preventDefault();
 	    		});
 
+
+	    	$('#btn-one').click(function() {
+
+	    		mixpanel.track("click", {
+			  		"botao": "topo"
+				});
+			});
+
+			$('#btn-two').click(function() {
+
+	    		mixpanel.track("click", {
+			  		"botao": "meio"
+				});
+			});			
 
 		});
 
