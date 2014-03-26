@@ -10,15 +10,6 @@
 
 		
 		$(document).ready(function(){
-			
-			mixpanel.track("access_page", {
-		  		"page": "home"
-			});
-
-			mixpanel.track("access_page", {
-		  		"page": "thanks"
-			});
-
 			getWindowSize();
 			
 			// SCROLL EASING

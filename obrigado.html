@@ -64,6 +64,9 @@ mixpanel.init("0ef9ba638f51ebd93c8cb59f88a572ea");</script><!-- end Mixpanel -->
           ga('create', 'UA-46595816-3', 'ossimples.com.br');
           ga('send', 'pageview');
 
+          mixpanel.track("access_page", {
+                "page": "thanks"
+            });
         </script>
     </body>
 </html>
