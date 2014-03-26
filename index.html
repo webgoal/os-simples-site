@@ -37,9 +37,9 @@ mixpanel.init("0ef9ba638f51ebd93c8cb59f88a572ea");</script><!-- end Mixpanel -->
             <div class="container">
                 <h1><a class="logo" href="#" title="o.s. simples">o.s. simples</a></h1>
                 <nav>
-                    <a href="#como-funciona" title="Como funciona?">Como funciona?</a>
-                    <a href="#funcionalidades" title="Funcionalidades">Funcionalidades</a>
-                    <a href="#form" title="Cadastre-se"><span>Cadastre-se</span></a>
+                    <a href="#como-funciona" title="Como funciona?" class="como_funciona">Como funciona?</a>
+                    <a href="#funcionalidades" title="Funcionalidades" class="funcionalidades">Funcionalidades</a>
+                    <a href="#form" title="Cadastre-se" class="cadastre_se"><span>Cadastre-se</span></a>
                 </nav>
             </div>
         </section>
@@ -128,11 +128,11 @@ mixpanel.init("0ef9ba638f51ebd93c8cb59f88a572ea");</script><!-- end Mixpanel -->
         <section id="form">
             <h2>Experimente, é simples e rápido!</h2>
             <div class="container">
-                <form action="http://forms.brace.io/jeff@webgoal.com.br" method="POST">
+                <form action="http://forms.brace.io/jeff@webgoal.com.br" method="POST" id="cadastro">
                     <input type="hidden" name="_next" value="http://www.ossimples.com.br/obrigado.html" />
                     <input type="text" name="name" placeholder="Nome" id="nome">
                     <input type="email" name="_replyto" placeholder="E-mail" id="email">
-                    <input type="button" value="Cadastre-se" id="btn-submit">
+                    <input type="submit" value="Cadastre-se" id="btn-submit">
                 </form>
             </div>
         </section>
