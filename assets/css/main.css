@@ -38,6 +38,10 @@ a.btn{
 	padding: 20px 10px;
 }
 
+a.btn:hover{
+	background: #3ea0bf;
+}
+
 .grid-12 a.btn{
 	margin: 0 auto;
 }
@@ -66,10 +70,18 @@ nav{
 
 nav a{
 	margin:0 0 0 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav a span{
+	font-family: ClanWeb-Medium, sans-serif;	
 }
 
 section#hero{
-	/*margin:115px 0 0 0;*/
 	height: 480px;
 	background:url(../images/bg-hero.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
