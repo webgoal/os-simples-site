@@ -1,159 +1,109 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>O.S. Simples - Sistema de coontrole de ordem de serviço online</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+title: O.S. Simples
+---
 
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/fonts.css">
-        <link rel="stylesheet" href="assets/css/struture.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+<section id="topo">
+    <div class="container">
+        <h1><a class="logo" href="#" title="o.s. simples">o.s. simples</a></h1>
+        <nav>
+            <a href="#como-funciona" title="Como funciona?" class="como_funciona">Como funciona?</a>
+            <a href="#funcionalidades" title="Funcionalidades" class="funcionalidades">Funcionalidades</a>
+            <a href="#form" title="Cadastre-se" class="cadastre_se"><span>Cadastre-se</span></a>
+        </nav>
+    </div>
+</section>
 
-        <link href="favicon.png" rel="icon" sizes="32x32" type="image/x-icon" />
-        
-        <script src="assets/js/jquery-1.7.2.js"></script>
-        <script src="assets/js/scroll.js"></script>
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
-        <script src="assets/js/script.js"></script>
-        <script src="assets/js/track.home.js"></script>
+<section id="hero">
+    <div class="container">
+        <h2>Simplifique o controle das ordens de serviços</h2>
+        <h3><span>o.s. simples</span> é um sistema online de controle de ordem de serviço para micro e pequenas empresas.</h3>
+        <a id="btn-one" class="btn" href="#form" title="Cadastre-se">Cadastre-se</a>
+    </div>
+</section>
+<section id="content">
+    <div id="como-funciona" class="container como-funciona">
+        <h2>Como funciona o o.s. simples?</h2>
+        <div class="grid-2">
+            <h4>Orçamento</h4>
+            <img src="assets/images/icon-orcamento.png">
+            <p>É criado um orçamento com a descrição do serviço que é enviado para o cliente.</p>
+        </div>
 
-        <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-mixpanel.init("0ef9ba638f51ebd93c8cb59f88a572ea");</script><!-- end Mixpanel -->
-    
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <div class="grid-2">
+            <h4>Aprovação</h4>
+            <img src="assets/images/icon-aprovacao.png">
+            <p>O cliente aprova o orçamento.</p>
+        </div>
 
-        <section id="topo">
-            <div class="container">
-                <h1><a class="logo" href="#" title="o.s. simples">o.s. simples</a></h1>
-                <nav>
-                    <a href="#como-funciona" title="Como funciona?" class="como_funciona">Como funciona?</a>
-                    <a href="#funcionalidades" title="Funcionalidades" class="funcionalidades">Funcionalidades</a>
-                    <a href="#form" title="Cadastre-se" class="cadastre_se"><span>Cadastre-se</span></a>
-                </nav>
-            </div>
-        </section>
-        
-        <section id="hero">
-            <div class="container">
-                <h2>Simplifique o controle das ordens de serviços</h2>
-                <h3><span>o.s. simples</span> é um sistema online de controle de ordem de serviço para micro e pequenas empresas.</h3>
-                <a id="btn-one" class="btn" href="#form" title="Cadastre-se">Cadastre-se</a>
-            </div>
-        </section>
-        <section id="content">
-            <div id="como-funciona" class="container como-funciona">
-                <h2>Como funciona o o.s. simples?</h2>
-                <div class="grid-2">
-                    <h4>Orçamento</h4>
-                    <img src="assets/images/icon-orcamento.png">
-                    <p>É criado um orçamento com a descrição do serviço que é enviado para o cliente.</p>
-                </div>
+        <div class="grid-2">
+            <h4>Pendente</h4>
+            <img src="assets/images/icon-pendente.png">
+            <p>Você acompanha o estado de cada O.S. em uma lista.</p>
+        </div>
 
-                <div class="grid-2">
-                    <h4>Aprovação</h4>
-                    <img src="assets/images/icon-aprovacao.png">
-                    <p>O cliente aprova o orçamento.</p>
-                </div>
+        <div class="grid-2">
+            <h4>Execução</h4>
+            <img src="assets/images/icon-execucao.png">
+            <p>A O.S. será executada por um funcionário da empresa.</p>
+        </div>
 
-                <div class="grid-2">
-                    <h4>Pendente</h4>
-                    <img src="assets/images/icon-pendente.png">
-                    <p>Você acompanha o estado de cada O.S. em uma lista.</p>
-                </div>
+        <div class="grid-2">
+            <h4>Finalizada</h4>
+            <img src="assets/images/icon-finalizada.png">
+            <p>Isso indica que o serviço foi executado.</p>
+        </div>
 
-                <div class="grid-2">
-                    <h4>Execução</h4>
-                    <img src="assets/images/icon-execucao.png">
-                    <p>A O.S. será executada por um funcionário da empresa.</p>
-                </div>
+        <div class="grid-2">
+            <h4>Contato</h4>
+            <img src="assets/images/icon-contato.png">
+            <p>Você pode avisar o seu cliente por E-mail ou SMS.</p>
+        </div>
 
-                <div class="grid-2">
-                    <h4>Finalizada</h4>
-                    <img src="assets/images/icon-finalizada.png">
-                    <p>Isso indica que o serviço foi executado.</p>
-                </div>
+        <div class="grid-12">
+            <a id="btn-two" class="btn" href="#form" title="Cadastre-se">Cadastre-se</a>
+        </div>
+    </div>
+    <div id="funcionalidades" class="container facilidades">
+        <h2>Facilidades para o dia-a-dia!</h2>
 
-                <div class="grid-2">
-                    <h4>Contato</h4>
-                    <img src="assets/images/icon-contato.png">
-                    <p>Você pode avisar o seu cliente por E-mail ou SMS.</p>
-                </div>
-
-                <div class="grid-12">
-                    <a id="btn-two" class="btn" href="#form" title="Cadastre-se">Cadastre-se</a>
-                </div>
-            </div>
-            <div id="funcionalidades" class="container facilidades">
-                <h2>Facilidades para o dia-a-dia!</h2>
-
-                <ul>
-                    <li class="grid-4">
-                        <img src="assets/images/icon-acompanhamento.png">
-                        <p>Acompanhamento da O.S.</p>
-                    </li>
-                    <li class="grid-4">
-                        <img src="assets/images/icon-enviar.png">
-                        <p>Envie orçamento para os clientes</p>
-                    </li>
-                    <li class="grid-4">
-                        <img src="assets/images/icon-relatorio.png">
-                        <p>Relatório de serviços prestados</p>
-                    </li>
-                    <li class="grid-4">
-                        <img src="assets/images/icon-nuvem.png">
-                        <p>Acesse de qualquer lugar</p>
-                    </li>
-                    <li class="grid-4">
-                        <img src="assets/images/icon-mobile.png">
-                        <p>Disponível para diversos dispositivos</p>
-                    </li>
-                    <li class="grid-4">
-                        <img src="assets/images/icon-granatum.png">
-                        <p>Integração com sistema financeiro*</p>
-                        <span>*Intergração com o sistema financeiro <a href="http://www.granatum.com.br" title="Sistema Financeiro Online para Micro e Pequenas Empresas - Granatum">Granatum</a></span>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section id="form">
-            <h2>Experimente, é simples e rápido!</h2>
-            <div class="container">
-                <form action="http://forms.brace.io/jeff@webgoal.com.br" method="POST" id="cadastro">
-                    <input type="hidden" name="_next" value="http://www.ossimples.com.br/obrigado.html" />
-                    <input type="text" name="name" placeholder="Nome" id="nome">
-                    <input type="email" name="_replyto" placeholder="E-mail" id="email">
-                    <input type="submit" value="Cadastre-se" id="btn-submit">
-                </form>
-            </div>
-        </section>
-        <section id="footer">
-            <div class="container">
-                <a class="logo-mini" href="#topo" title="o.s. simples">
-                    <img src="assets/images/logo-mini.png">
-                </a>
-                <p>é desenvolvido pela <a href="http://www.webgoal.com.br" title="Webgoal">Webgoal</a></p>
-            </div>
-        </section>
-        
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-46595816-3', 'ossimples.com.br');
-            ga('send', 'pageview');
-        </script>
-    </body>
-</html>
+        <ul>
+            <li class="grid-4">
+                <img src="assets/images/icon-acompanhamento.png">
+                <p>Acompanhamento da O.S.</p>
+            </li>
+            <li class="grid-4">
+                <img src="assets/images/icon-enviar.png">
+                <p>Envie orçamento para os clientes</p>
+            </li>
+            <li class="grid-4">
+                <img src="assets/images/icon-relatorio.png">
+                <p>Relatório de serviços prestados</p>
+            </li>
+            <li class="grid-4">
+                <img src="assets/images/icon-nuvem.png">
+                <p>Acesse de qualquer lugar</p>
+            </li>
+            <li class="grid-4">
+                <img src="assets/images/icon-mobile.png">
+                <p>Disponível para diversos dispositivos</p>
+            </li>
+            <li class="grid-4">
+                <img src="assets/images/icon-granatum.png">
+                <p>Integração com sistema financeiro*</p>
+                <span>*Intergração com o sistema financeiro <a href="http://www.granatum.com.br" title="Sistema Financeiro Online para Micro e Pequenas Empresas - Granatum">Granatum</a></span>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="form">
+    <h2>Experimente, é simples e rápido!</h2>
+    <div class="container">
+        <form action="http://forms.brace.io/jeff@webgoal.com.br" method="POST" id="cadastro">
+            <input type="hidden" name="_next" value="http://www.ossimples.com.br/obrigado.html" />
+            <input type="text" name="name" placeholder="Nome" id="nome">
+            <input type="email" name="_replyto" placeholder="E-mail" id="email">
+            <input type="submit" value="Cadastre-se" id="btn-submit">
+        </form>
+    </div>
+</section>
