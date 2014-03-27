@@ -220,3 +220,8 @@ section#footer p{
 	font-family: ClanWeb-Medium, sans-serif;
 	font-size: 1.6em;	
 }
+
+.grid-4 span{
+	font-size: .8em;
+	font-style: italic;
+}
