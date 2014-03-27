@@ -99,11 +99,10 @@ title: O.S. Simples
 <section id="form">
     <h2>Experimente, é simples e rápido!</h2>
     <div class="container">
-        <form action="http://forms.brace.io/jeff@webgoal.com.br" method="POST" id="cadastro">
-            <input type="hidden" name="_next" value="http://www.ossimples.com.br/obrigado.html" />
-            <input type="text" name="name" placeholder="Nome" id="nome">
-            <input type="email" name="_replyto" placeholder="E-mail" id="email">
-            <input type="submit" value="Cadastre-se" id="btn-submit">
+        <form id="cadastro" action="obrigado.html">
+            <input type="text" name="name" id="name" placeholder="Nome" required>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            <input type="submit" value="Cadastre-se">
         </form>
     </div>
 </section>
