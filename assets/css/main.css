@@ -118,7 +118,6 @@ section#content .como-funciona{
 	background: url(../images/line.png) no-repeat 0 277px;
 }
 
-
 section#content .grid-2{
 	height: 300px;
 	text-align: center;
@@ -132,7 +131,6 @@ section#content .como-funciona img{
 section#content .como-funciona p{
 	font-size: .8em;
 }
-
 
 section#content .facilidades ul{
 	list-style: none;
@@ -152,7 +150,6 @@ section#content .facilidades li p{
 section#content .facilidades li img{
 	margin: 0 0 20px 0;
 }
-
 
 section#form{
 	padding:20px 0 60px 0;
