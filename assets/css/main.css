@@ -90,11 +90,14 @@ section#hero{
 			background-size: cover;
 }
 
+section#hero h2, section#hero h3{
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+} 
+
 section#hero h2{
 	width: 600px;
-	color: #FFF;
 	margin:80px 0 0 0;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	text-align: left;
 	letter-spacing: -3px;
 	line-height: 58px;
@@ -103,10 +106,8 @@ section#hero h2{
 section#hero h3{
 	font-family: ClanWeb-Book, sans-serif;	
 	font-size: 24px;
-	color: #3e484e;
 	width: 620px;
 	margin:20px 0 30px 0;
-	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 }
 
 section#hero h3 span{
@@ -145,7 +146,7 @@ section#content .facilidades li{
 section#content .facilidades li p{
 	font-family: ClanWeb-Book, sans-serif;
 	font-size: 22px;
-	padding:20px;
+	padding:20px 5px;
 }
 
 section#content .facilidades li img{
@@ -219,9 +220,4 @@ section#footer p{
 .thanks h3{
 	font-family: ClanWeb-Medium, sans-serif;
 	font-size: 1.6em;	
-}
-
-.grid-4 span{
-	font-size: .8em;
-	font-style: italic;
 }
