@@ -9,9 +9,7 @@ $(function() {
 		mixpanel.track("Acesso a Home")
 		mixpanel.set_config({ track_links_timeout:10000 })
 
-		mixpanel.track_links(".como_funciona", "Link para Como Funciona")
-		mixpanel.track_links(".funcionalidades", "Link para Funcionalidades")
-		mixpanel.track_links(".cadastre_se", "Link para o Formuário")
+		mixpanel.track_links(".cadastre_se", "CallToAction do menu")
 		mixpanel.track_forms("#cadastro", "Envio do formulário")
 
 		$('#btn-one').on('click', function() {
@@ -27,25 +25,6 @@ $(function() {
 				focusOnNome = true
 			}
 		})
-		$('#nome').on('keydown', function() {
-			if (!keyboardPressedForNome) {
-				mixpanel.track("Escreveu o nome")
-				keyboardPressedForNome = true
-			}
-		})
-
-		$('#email').on('focus', function() {
-			if (!focusOnEmail) {
-				mixpanel.track("Foco no Email")
-				focusOnEmail = true
-			}
-		})
-		$('#email').on('keydown', function() {
-			if (!keyboardPressedForEmail) {
-				mixpanel.track("Escreveu o email")
-				keyboardPressedForEmail = true
-			}
-		})
 
 		$(window).scroll(function() {
 			if($(window).scrollTop() + $(window).height() == $(document).height()) {
@@ -55,5 +34,18 @@ $(function() {
 				}
 			}
 		})
+
+		$('#cadastro').submit(function() {
+			var email = $('#cadastro #email').val()
+			var name = $('#cadastro #name').val()
+			mixpanel.identify(email)
+			mixpanel.people.set({
+				"$first_name": name,
+				"$created": new Date(),
+				"$email": email
+			})
+		})
+	} else {
+		alert("Ops! Mixpanel só funciona em produção!")
 	}
 })
