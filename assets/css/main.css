@@ -82,7 +82,7 @@ nav a span{
 }
 
 section#hero{
-	height: 480px;
+	height: 400px;
 	background:url(../images/bg-hero.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -97,7 +97,7 @@ section#hero h2, section#hero h3{
 
 section#hero h2{
 	width: 600px;
-	margin:80px 0 0 0;
+	margin:50px 0 0 0;
 	text-align: left;
 	letter-spacing: -3px;
 	line-height: 58px;
