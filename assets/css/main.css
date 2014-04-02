@@ -137,6 +137,10 @@ section#content .como-funciona p{
 	font-size: .8em;
 }
 
+section#content .como-funciona span{
+	display: block;
+}
+
 section#content .facilidades ul{
 	list-style: none;
 }
