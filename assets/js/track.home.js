@@ -38,11 +38,13 @@ $(function() {
 		$('#cadastro').submit(function() {
 			var email = $('#cadastro #email').val()
 			var name = $('#cadastro #name').val()
+			var phone = $('#cadastro #phone').val()
 			mixpanel.identify(email)
 			mixpanel.people.set({
 				"$first_name": name,
 				"$created": new Date(),
-				"$email": email
+				"$email": email,
+				"$phone": phone
 			})
 		})
 	} else {

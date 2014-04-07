@@ -172,13 +172,14 @@ section#form form{
 
 input{
 	font-family: ClanWeb-Medium, sans-serif;
-	font-size: 1.2em;
+	font-size: 1em;
 	margin:0 10px 0 0;
 	color: #3e3c36;
 }
 
 input[type=text],
-input[type=email]{
+input[type=email],
+input[type=tel]{
 	padding:10px;
 }
 
