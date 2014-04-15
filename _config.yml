@@ -1,3 +1,7 @@
-name: Your New Jekyll Site
+safe: true
+name: O.S. Simples
+baseurl: http://www.ossimples.com.br
 markdown: redcarpet
 pygments: true
+permalink: /:title/
+

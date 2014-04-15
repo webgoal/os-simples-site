@@ -81,6 +81,12 @@ nav a span{
 	font-family: ClanWeb-Medium, sans-serif;	
 }
 
+nav a span.blog{
+	background-color: #4fc6eb;
+	color: #FFF;
+	padding:6px 14px;
+}
+
 section#hero{
 	height: 400px;
 	background:url(../images/bg-hero.jpg) no-repeat center fixed;
